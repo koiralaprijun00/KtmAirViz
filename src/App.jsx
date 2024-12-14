@@ -1,8 +1,6 @@
 import { useState } from "react"
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
 import Navbar from "./Navbar"
-// import AboutAirPollution from "./AboutAirPollution"
-import AboutUs from "./AboutUs"
 import IsoplethMap from "./IsoplethMap"
 import Sidebar from "./Sidebar"
 //import TestCode from "./TestCode"
