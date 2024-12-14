@@ -1,0 +1,131 @@
+{
+  "status": "ok",
+  "data": [
+    {
+      "uid": 10010,
+      "aqi": "101",
+      "time": { "tz": "+01:00", "stime": "2024-03-10 21:00:00", "vtime": 1710100800 },
+      "station": { "name": "Sundsvall Köpmangatan, Sweden", "geo": [62.388559644188, 17.308889830124], "url": "sweden/sundsvall-kopmangatan" }
+    },
+    {
+      "uid": 13972,
+      "aqi": "83",
+      "time": { "tz": "+01:00", "stime": "2024-03-10 22:00:00", "vtime": 1710104400 },
+      "station": { "name": "Östersund Rådhusgatan, Sweden", "geo": [63.173908876565, 14.641085987166], "url": "sweden/ostersund-radhusgatan" }
+    },
+    {
+      "uid": 9328,
+      "aqi": "74",
+      "time": { "tz": "+01:00", "stime": "2024-03-09 13:00:00", "vtime": 1709985600 },
+      "station": { "name": "Sundsvall Köpmansgatan, Sweden", "geo": [62.388553619385, 17.308979034424], "url": "sweden/sundsvall-kopmansgatan" }
+    },
+    {
+      "uid": 7969,
+      "aqi": "54",
+      "time": { "tz": "+01:00", "stime": "2024-03-09 13:00:00", "vtime": 1709985600 },
+      "station": { "name": "Södertälje Turingegatan, Sweden", "geo": [59.198115268359, 17.621084005035], "url": "sweden/sodertalje-turingegatan" }
+    },
+    {
+      "uid": 13973,
+      "aqi": "49",
+      "time": { "tz": "+01:00", "stime": "2024-03-10 21:18:21", "vtime": 1710101901 },
+      "station": { "name": "Sundsvall Bergsgatan, Sweden", "geo": [62.386462147033, 17.30323396132], "url": "sweden/sundsvall-bergsgatan" }
+    },
+    {
+      "uid": 13996,
+      "aqi": "43",
+      "time": { "tz": "+01:00", "stime": "2024-03-10 21:19:28", "vtime": 1710101968 },
+      "station": { "name": "Gävle Staketgatan 22, Sweden", "geo": [60.676168438577, 17.137638686882], "url": "sweden/gavle-staketgatan-22" }
+    },
+    {
+      "uid": 7870,
+      "aqi": "41",
+      "time": { "tz": "+01:00", "stime": "2024-03-10 22:00:00", "vtime": 1710104400 },
+      "station": { "name": "Malmö Dalaplan, Sweden", "geo": [55.584747, 13.00623], "url": "sweden/malmo-dalaplan" }
+    },
+    {
+      "uid": 12519,
+      "aqi": "33",
+      "time": { "tz": "+01:00", "stime": "2024-03-10 22:00:00", "vtime": 1710104400 },
+      "station": { "name": "Helsingborg Drottninggatan, Sweden", "geo": [56.047200928565, 12.691471605858], "url": "sweden/helsingborg-drottninggatan" }
+    },
+    {
+      "uid": 13987,
+      "aqi": "33",
+      "time": { "tz": "+01:00", "stime": "2024-03-10 21:16:38", "vtime": 1710101798 },
+      "station": { "name": "Visby Österväg 17, Sweden", "geo": [57.636928207276, 18.303565072769], "url": "sweden/visby-ostervag-17" }
+    },
+    {
+      "uid": 7866,
+      "aqi": "31",
+      "time": { "tz": "+01:00", "stime": "2024-03-10 22:00:00", "vtime": 1710104400 },
+      "station": { "name": "Malmö Rådhuset, Sweden", "geo": [55.606388092041, 13.001963615418], "url": "sweden/malmo-radhuset" }
+    },
+    {
+      "uid": 7864,
+      "aqi": "30",
+      "time": { "tz": "+01:00", "stime": "2024-03-10 21:00:00", "vtime": 1710100800 },
+      "station": { "name": "Stockholm Södermalm, Sweden", "geo": [59.316006853996, 18.057807343668], "url": "sweden/stockholm-sodermalm" }
+    },
+    {
+      "uid": 13985,
+      "aqi": "28",
+      "time": { "tz": "+01:00", "stime": "2024-03-10 21:19:19", "vtime": 1710101959 },
+      "station": { "name": "Norrköping Kungsgatan 32, Sweden", "geo": [58.591516412123, 16.177874909141], "url": "sweden/norrkoping-kungsgatan-32" }
+    },
+    {
+      "uid": 13989,
+      "aqi": "26",
+      "time": { "tz": "+01:00", "stime": "2024-03-10 21:20:07", "vtime": 1710102007 },
+      "station": { "name": "Visby Brömsebroväg 8, Sweden", "geo": [57.639926873587, 18.309721357086], "url": "sweden/visby-bromsebrovag-8" }
+    },
+    {
+      "uid": 13990,
+      "aqi": "26",
+      "time": { "tz": "+01:00", "stime": "2024-03-10 21:16:25", "vtime": 1710101785 },
+      "station": { "name": "Linköping Hamngatan 10, Sweden", "geo": [58.412392308267, 15.630079303464], "url": "sweden/linkoping-hamngatan-10" }
+    },
+    {
+      "uid": 8265,
+      "aqi": "26",
+      "time": { "tz": "+01:00", "stime": "2024-03-10 21:00:00", "vtime": 1710100800 },
+      "station": { "name": "Södertälje Birkakorset, Sweden", "geo": [59.201341163599, 17.634751744119], "url": "sweden/sodertalje-birkakorset" }
+    },
+    {
+      "uid": 7872,
+      "aqi": "24",
+      "time": { "tz": "+01:00", "stime": "2024-03-09 13:00:00", "vtime": 1709985600 },
+      "station": { "name": "Stockholm Lilla Essingen, Sweden", "geo": [59.325527191162, 18.004390716553], "url": "sweden/stockholm-lilla-essingen" }
+    },
+    {
+      "uid": 7863,
+      "aqi": "23",
+      "time": { "tz": "+01:00", "stime": "2024-03-10 22:00:00", "vtime": 1710104400 },
+      "station": { "name": "Göteborg Femman, Sweden", "geo": [57.709020042899, 11.970240518006], "url": "sweden/goteborg-femman" }
+    },
+    {
+      "uid": 13988,
+      "aqi": "23",
+      "time": { "tz": "+01:00", "stime": "2024-03-10 21:19:23", "vtime": 1710101963 },
+      "station": { "name": "Sundbyberg Tulegatan 9, Sweden", "geo": [59.364259585467, 17.976278122934], "url": "sweden/sundbyberg-tulegatan-9" }
+    },
+    {
+      "uid": 13993,
+      "aqi": "22",
+      "time": { "tz": "+01:00", "stime": "2024-03-10 21:20:24", "vtime": 1710102024 },
+      "station": { "name": "Södertälje Turingegatan 26, Sweden", "geo": [59.198115268359, 17.621084005035], "url": "sweden/sodertalje-turingegatan-26" }
+    },
+    {
+      "uid": 13986,
+      "aqi": "22",
+      "time": { "tz": "+01:00", "stime": "2024-03-10 21:20:11", "vtime": 1710102011 },
+      "station": { "name": "Norrköping Trädgårdsgatan 21, Sweden", "geo": [58.592039404834, 16.189332912153], "url": "sweden/norrkoping-tradgardsgatan-21" }
+    },
+    {
+      "uid": 10009,
+      "aqi": "22",
+      "time": { "tz": "+01:00", "stime": "2024-03-10 21:00:00", "vtime": 1710100800 },
+      "station": { "name": "Stockholm Hornsgatan 108 Gata, Sweden", "geo": [59.317222433112, 18.048660347204], "url": "sweden/stockholm-hornsgatan-108-gata" }
+    }
+  ]
+}

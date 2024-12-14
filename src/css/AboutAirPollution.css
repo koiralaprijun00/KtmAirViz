@@ -1,0 +1,73 @@
+.about-us-container {
+  width: 100%;
+  overflow: hidden;
+  height: 90vh;
+}
+
+#comparison-chart {
+  background-color: rgb(231, 231, 231);
+  padding: 20px 20px;
+  height: 500px;
+}
+.top-container {
+  display: flex;
+}
+.button-container {
+  display: flex;
+  width: 100%;
+  justify-content: right;
+}
+
+.first-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.faq-accordion {
+  height: 35%;
+}
+
+.about-pollution-heading-mobile-view {
+  display: none;
+}
+@media (max-width: 768px) {
+  .main-container {
+    flex-direction: column; /* Change to column layout for smaller screens */
+  }
+
+  .about-pollution-heading-mobile-view {
+    display: block;
+    margin-top: 60px;
+    margin-left: 20px;
+    font-size: 22px;
+    font-weight: bolder;
+  }
+
+  .first-col,
+  .second-col,
+  .third-col {
+    width: 100%; /* Make each column occupy full width on smaller screens */
+    margin-bottom: 20px; /* Add space between columns */
+  }
+
+  .faq-accordion {
+    height: auto; /* Adjust height to fit content */
+  }
+
+  #comparison-chart {
+    height: auto; /* Adjust height to fit content */
+  }
+
+  .about-us-container {
+    overflow: auto;
+  }
+
+  .top-container {
+    padding: 5px; /* Reduce padding */
+  }
+  .svg-chart-circle {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+}

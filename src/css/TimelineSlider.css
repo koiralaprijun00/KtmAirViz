@@ -1,0 +1,21 @@
+.controls {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.play-button {
+  width: 5%;
+}
+
+.main-timeline {
+  width: 95%;
+}
+
+.timeline-input {
+  width: 100%;
+}
+
+.timeline-input::-webkit-slider-runnable-track {
+  background: #85c0ff; /* Match track color */
+}

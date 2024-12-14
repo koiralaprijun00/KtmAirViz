@@ -1,0 +1,48 @@
+body {
+  overflow-x: hidden; /* Disable horizontal scrolling */
+}
+
+.container {
+  display: flex;
+  flex-direction: row; /* Default layout for larger screens */
+  position: relative;
+  overflow-x: hidden;
+  overflow-y: hidden; /* Set position relative for the parent container */
+}
+
+.left-container {
+  width: 76%; /* Adjust width as needed */
+}
+
+.right-container {
+  width: 24%; /* Adjust width as needed */
+}
+
+@media (max-width: 1000px) {
+  .left-container {
+    width: 68%; /* Adjust width as needed */
+  }
+
+  .right-container {
+    width: 30%; /* Adjust width as needed */
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column; /* Stack containers on smaller screens */
+  }
+
+  .left-container,
+  .right-container {
+    width: 100%; /* Full width for both containers */
+  }
+
+  .right-container {
+    position: absolute; /* Position right container absolutely to overlay */
+    top: 600px; /* Adjust these values as needed to position the overlay */
+    left: 0;
+    height: 100%; /* You might want to adjust the height */
+    z-index: 10; /* Ensure it's above the left-container */
+  }
+}

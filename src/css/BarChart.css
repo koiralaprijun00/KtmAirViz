@@ -1,0 +1,10 @@
+.tooltip {
+  position: absolute;
+  background-color: white;
+  border: 1px solid #ccc;
+  padding: 5px;
+  border-radius: 5px;
+  pointer-events: none; /* Ensures the tooltip does not block mouse events on chart elements */
+  opacity: 0;
+  z-index: 999; /* Ensures the tooltip appears above other elements */
+}

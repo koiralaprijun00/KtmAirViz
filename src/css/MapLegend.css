@@ -1,0 +1,61 @@
+.legend-container {
+  display: flex;
+  padding: 4px;
+  border-radius: 4px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: 10;
+}
+.legend-item {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 8px;
+  height: 30px;
+  margin: 1px;
+  border-radius: 1px;
+  color: black;
+}
+.legend-item:nth-child(n + 6) {
+  color: white;
+}
+.legend-text {
+  font-size: 12px;
+  text-align: center;
+}
+.legend-info {
+  position: absolute;
+  top: calc(100% + 5px);
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  display: none;
+}
+
+.custom-tooltip {
+  max-width: 240px; /* Adjust this value as needed */
+  padding: 12px;
+  background-color: rgba(239, 239, 239, 0.85);
+  color: rgb(42, 42, 42);
+  border-radius: 4px;
+  font-size: 14px;
+  z-index: 1000;
+  transform: translate(-50%, -100%);
+  white-space: normal; /* Allows text to wrap if it exceeds the max-width */
+  pointer-events: none;
+  border: 4px solid white;
+}
+
+.tooltip-scale {
+  font-size: 16px; /* Larger font size for scale */
+  font-weight: bold; /* Optional: makes scale text bold */
+}
+
+.tooltip-info {
+  font-size: 12px; /* Smaller font size for info */
+  margin-top: 4px; /* Adds some space between the scale and info text */
+}
